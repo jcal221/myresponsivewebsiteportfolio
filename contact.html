@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Joe Calasan - Portfolio</title>
+    <link rel="shortcut icon" href="./img/Joe_Calasan_favicon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <!-- Header including the logo and the main navigation -->
+    <header class="page-header">
+      <!-- Add your logo here -->
+      <img class="logo"src="img/Joe_Calasan_Logo.svg" alt="Personal logo of Joe Calasan, a text logo in uppercase letters that consists of my name" >
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+	<main>
+		<div class="contact-list">
+		<h1>Contact</h1>
+			<div>
+				My address1<br>
+				My address2<br>
+				12435 Berlin<br>
+				Deutschland<br>
+				<br>
+				<a href="tel:+493048492016"><span class="sr-only">Phone number:</span> +49 30 4849 2016</a><br>
+				Skype <a href="skype:hello.dummy"> hello.dummy</a><br>
+				<a href="mailto:myemail@mydomain.com?subject=Inquiry about your services&body=Hello,">myemail(AT)mydomain(COM)</a><br>
+				<a href="mailto:myemail@mydomain.com?subject=Inquiry about your services&body=Hello,">Contact me</a>
+			</div>
+			<div>
+				<form action=""method="post" id="contact-form">
+					<label class="standard-label" for="contact-email">Email: </label>
+					<input type="email" id="contact-email" required>
+					<label class="standard-label" for="contact-telephone">Telephone: </label>
+					<input type="tel" id="contact-telephone" required>
+					<label class="standard-label" for="contact-message">Message: </label>
+					<textarea id="contact-message" required maxlength="240"></textarea>
+					<input type="submit" value="Send message">
+				</form>
+			</div>
+		</div>
+	</main>	
+    <footer class="page-footer">
+		<p>Find me on</p>
+		<div class="social-media">
+		  <!-- Github logo -->
+		  <img src="img/github_icon.svg" alt="github" width="30" height="30px">
+		  <!-- Twitter logo -->
+		  <img src="img/twitter_icon.svg" alt="twitter" width="30" height="30px">
+		  <!-- LinkedIn logo -->
+		  <img src="img/linkedin_icon.svg" alt="linkedin" width="30" height="30px">
+		</div>
+	  </footer>
+	  <script src="js/tota11y.min.js"></script>
+	</body>
+  </html>
