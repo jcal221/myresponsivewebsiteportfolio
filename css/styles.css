@@ -134,6 +134,7 @@ button:focus {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
     grid-gap: 20px;
+    margin: 20px;
 }
 
 .logo {
@@ -296,4 +297,8 @@ button:focus,
 #contact-form {
     display: flex;
     flex-direction: column;
+}
+
+#work-header {
+    margin: 0 auto;
 }
